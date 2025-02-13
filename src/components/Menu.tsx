@@ -2,7 +2,7 @@ import Button from "../components/Button";
 function Menu() {
     return (
         <>
-            <div className="bg-[url('/Users/victorcavalcanti/Desktop/restaurantTailwindTypescript/public/images/spices.jpg')] bg-cover h-[130vh] flex flex-col sm:h-screen "  >
+            <div className="bg-[url('/Users/victorcavalcanti/Desktop/restaurantTailwindTypescript/src/assets/spices.jpg')] bg-cover h-[130vh] flex flex-col sm:h-screen "  >
                 <div className='grid justify-center gap-2 sm:flex sm:flex-row sm:gap-30 p-6'>
                     <Button path="/" name='Home' />
                     <Button path="/menu" name='Menu' />
